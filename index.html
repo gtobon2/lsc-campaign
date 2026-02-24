@@ -674,7 +674,6 @@ p{
           It pushes for measurable outcomes.
         </p>
         <p style="margin-top:1.5rem;font-weight:600;color:var(--cream);">
-          That seat matters. I want it.
         </p>
       </div>
     </section>
@@ -699,7 +698,7 @@ p{
       <div class="ring r2" style="bottom:-18%; right:-12%; opacity:.6;"></div>
       <div class="ring" style="top:-10%; left:20%; opacity:.4;"></div>
       <div class="reveal">
-        <h2>We don't settle for<br><span class="accent-red">"that's just how it is."</span></h2>
+        <h2>We shouldn't settle for<br><span class="accent-red">"that's just how it is."</span></h2>
         <p>
           We expect follow-through.<br>
           We demand evidence.<br>
@@ -721,7 +720,7 @@ p{
         <h1 style="margin-top:.5rem;"><span class="accent-blue">Geraldo</span></h1>
         <div class="line"></div>
         <p class="punch">Vote for me.</p>
-        <button class="cta" id="copyBtn">Copy: "I'm voting for Geraldo."</button>
+        <button class="cta" id="copyBtn">Copy: "Share this digital flyer"</button>
         <p class="small">Tap to copy — then share with colleagues.</p>
       </div>
     </section>
@@ -897,7 +896,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var copyBtn = document.getElementById('copyBtn');
   if(copyBtn){
     copyBtn.onclick = function(){
-      var text = "I'm voting for Geraldo for LSC Teacher Rep.";
+      var text = "http://lsc.tbnlab.xyz/";
       if(navigator.clipboard && navigator.clipboard.writeText){
         navigator.clipboard.writeText(text).then(function(){
           copyBtn.textContent = '✓ Copied!';
